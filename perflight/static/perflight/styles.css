@@ -1,0 +1,91 @@
+body {
+  background-color: #80A1BA;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background-color: #91C4C3;
+  border: 3px solid #B4DEBD;
+  border-radius: .75rem;
+  width: 30vw;
+  min-width: 320px;
+  height: 30vh;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+label[for="id_flight_number"] {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #B4DEBD;
+  color: #1a1a1a;
+  border: none;
+  border-radius: .3rem;
+  padding: .5rem 1.5rem;
+  font-weight: 600;
+  transition: all .2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #FFF7DD;
+  transform: scale(1.05);
+}
+
+/* LOADER */
+.loader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+.noResult {
+  /* Dimensiones y Posicionamiento */
+  width: auto; /* Dejar que el ancho se ajuste al contenido (más flexible) */
+  min-width: 250px; /* Ancho mínimo para legibilidad */
+  height: auto;
+  padding: 1.25rem 2.5rem; /* Aumentar el padding para más espacio */
+  
+  /* Fondo y Borde */
+  background-color: #E2F3F5; /* Fondo más claro (cercano al blanco) */
+  border: 1px solid #91C4C3; /* Un borde sutil que enmarca el color original */
+  
+  /* Tipografía */
+  color: #B22222; /* Rojo más estándar y fuerte (Firebrick) */
+  font-weight: 600; /* Negrita para destacar */
+  font-size: 1.1rem; /* Texto un poco más grande */
+  
+  /* Sombra (Más suave y moderna) */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave y difuminada */
+  
+  /* Asegurar el centrado vertical del texto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  /* Transición para un efecto sutil al aparecer */
+  transition: opacity 0.3s ease-in-out;
+}
+.btn{
+  position: absolute;
+  top:2rem;
+  left:40vw;
+  width: 20vw;
+  height: 4vh;
+}
+
+.card{
+  width: 60vw;
+}
+.collapse.show{
+ position: absolute;
+ top: 10vh;
+ left: 20%;
+}

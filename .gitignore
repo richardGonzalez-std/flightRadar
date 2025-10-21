@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtualenvs
+env/
+venv/
+.venv/
+*.env
+
+# Django caches
+.cache/
+cache/
+**/cache/
+**/.cache/
+
+# Django migrations (ignore all migrations folders)
+**/migrations/
+**/migrations/**
+
+# Common extras
+*.egg-info/
+dist/
+build/
+.DS_Store
+.idea/
+.vscode/
+*.sqlite3
