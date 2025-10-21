@@ -2,12 +2,10 @@ from django.shortcuts import render
 import django.forms as forms
 from django.http import JsonResponse
 import requests
-import dotenv
 import os
 import json
 
 # Create your views here.
-dotenv.load_dotenv()
 def home(request):
     form = forms.Form()
 
