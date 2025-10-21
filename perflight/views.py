@@ -18,7 +18,7 @@ def handle(request):
         url = 'https://flightradar24-data.p.rapidapi.com/flights/flight-info'
         flight = request.POST.get('flight_number')
         header = {
-	"x-rapidapi-key": "00e456644fmsh9d26fcccadd34c2p195efcjsnc61a43b08238",
+	"x-rapidapi-key": f"{os.getenv('RAPID_KEY')}",
 	"x-rapidapi-host": "flightradar24-data.p.rapidapi.com"
 }
         queryString = {"query":f"{flight}"}
