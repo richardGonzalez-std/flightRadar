@@ -108,12 +108,6 @@ Las contribuciones son bienvenidas. Fork el repo, crea una rama, haz commit y ab
 
 ---
 
-## 📄 Licencia
-
-MIT License - Consulta [LICENSE](LICENSE) para más detalles.
-
----
-
 ## 👤 Contacto
 
 **Richard González**
